@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css" />
+     <link rel="icon" type="image/png" href="../Foxtrot Aviation/images/LogoFoxtrot.png">
+    <title>Vidéothèque Foxtrot</title>
+</head>
+<body>
+    <!--mon header avec 2 lien pour accueil (cette page) et pour la page catalogue-->
+    <header id="accueil">
+        <img src="../Foxtrot Aviation/images/LogoFoxtrot.png" alt="logo" id="logo">
+        <nav class="accueil">
+            <a href="index.html">Accueil</a>
+            <a href="catalogue.html">Catalogue</a>
+        </nav>
+    </header>    <!--le petit carrousel des images-->
+    <section id="carousel">
+    <h2>Nouveautés</h2>
+    <div id="carouselDiv">
+        <button id="previous">Previous</button>     <!-- le bouton pour voir le film precedant-->
+        <div id="carouselImages">
+            <p id="titre"></p>
+        </div>
+        <button id="next">Next</button>                <!-- le bouton pour voir le film suivant-->
+    </div>
+</section>
+    <footer>© Copyrights Foxtrot Vidéothèque</footer>       
+<script src="films.js" type="text/javascript"></script>                 <!-- je charge et exécute les fichiers JavaScript necessaires-->
+<script src="script.js" type="text/javascript"></script> 
+</body>
+</html>
