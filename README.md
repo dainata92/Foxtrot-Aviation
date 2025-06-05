@@ -5,7 +5,7 @@ Vidéothèque
 Ce projet a été réalisé dans le cadre d’un test technique, avec pour objectif de construire une vidéothèque web en deux jours. Les données des films sont fournies dans un fichier JSON. L’application permet de visualiser, rechercher, trier et filtrer les films, ainsi que d’afficher les détails d’un film sélectionné.
 
 Choix techniques
-Au départ, j'avais envisagé de réaliser ce projet avec Vue.js, mais n'étant pas encore formée à React.js, j'ai finalement opté pour une approche basée sur HTML, CSS et JavaScript, afin de rester dans un environnement que je maîtrise mieux.
+Au départ, j'avais envisagé de réaliser ce projet avec Vue.js, mais n'étant pas encore formée à Angular.js, j'ai finalement opté pour une approche basée sur HTML, CSS et JavaScript, afin de rester dans un environnement que je maîtrise mieux.
 
 Le projet se compose de :
 3 pages HTML :
